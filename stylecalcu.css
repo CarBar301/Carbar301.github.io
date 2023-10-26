@@ -1,0 +1,29 @@
+.calculadora{
+    background: linear-gradient(to bottom ,#494646,#0d0e0d)
+}
+#titulo{
+    font-family: 'Roboto', sans-serif;
+
+}
+#resultados{
+    background-color: #cce2d9;
+}
+.etiqueta{
+    font-size: large;
+}
+#titulo2{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #fafdfd;
+}
+
+#tab1{
+    font-family: 'Roboto', sans-serif;
+
+}
+#tab2{
+    font-family: 'Roboto', sans-serif;
+
+}
