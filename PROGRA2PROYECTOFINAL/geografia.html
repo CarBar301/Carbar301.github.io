@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Learning</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/images/Iconopestana.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="iniciocurso">
+            <div class="contenedor-curso">
+                <div class="contenidoinicio">
+                    <div class="card-del-curso" style="background-image: url(assets/images/geografiapagina.jpg);">
+                        <div class="nombrescursos">
+                            <h1>Geografía</h1>
+                        </div>
+                    </div>
+                    <div class="contenedor-video">
+                        <iframe src="https://www.youtube.com/embed/1uU5qathCus"></iframe>
+                    </div>
+                </div>
+                <div class="contenedor-info">
+                    <div class="infodelcurso">
+                        <h1>El Cambio Climático</h1>
+                        <p>
+                            El cambio climático se refiere a los cambios a largo plazo de las temperaturas y los patrones climáticos. Estos cambios pueden ser naturales, debido a variaciones 
+                            en la actividad solar o erupciones volcánicas grandes. Pero desde el siglo XIX, las actividades humanas han sido el principal motor del cambio climático, debido principalmente a la quema
+                            de combustibles fósiles como el carbón, el petróleo y el gas.La quema de combustibles fósiles genera emisiones de gases de efecto invernadero que actúan como una 
+                            manta que envuelve a la Tierra, atrapando el calor del sol y elevando las temperaturas. Las emisiones principales de gases de efecto invernadero que provocan el 
+                            cambio climático son el dióxido de carbono y el metano. Estos proceden del uso de la gasolina para conducir un coche o del carbón para calentar un edificio, 
+                            por ejemplo. El desmonte de tierras y bosques también puede liberar dióxido de carbono. La agricultura y las actividades relacionadas con el petróleo y el gas 
+                            son fuentes importante de emisiones de metano. La energía, la industria, el transporte, los edificios, la agricultura y el uso del suelo se encuentran entre los 
+                            principales emisores. El cambio climático puede afectar a nuestra salud, a la capacidad de cultivar alimentos, a la vivienda, a la seguridad y al trabajo. Algunos 
+                            de nosotros ya somos más vulnerables a los impactos climáticos, como las personas que viven en pequeñas naciones insulares y otros países en desarrollo. Condiciones como 
+                            el aumento del nivel del mar y la intrusión de agua salada han avanzado hasta el punto de que comunidades enteras han tenido que reubicarse, y las prolongadas sequías están 
+                            creando un riesgo de hambruna. Se prevé que en el futuro aumente el número de «refugiados climáticos». Según los últimos informes de la ONU (inglés), miles de científicos y revisores gubernamentales
+                            coincidieron en que limitar el aumento de la temperatura global a no más de 1,5 °C nos ayudaría a evitar los peores impactos climáticos y a mantener un clima habitable. Sin embargo, las políticas 
+                            actuales apuntan a un aumento de la temperatura de 2,8 °C para finales de siglo.Las emisiones que provocan el cambio climático proceden de todas las partes del mundo y afectan a todos, 
+                            pero algunos países generan mucho más que otros. Los siete mayores emisores - China, Estados Unidos, India, la Unión Europea, Indonesia, Rusia y Brasil - fueron los causantes de la mitad 
+                            de las emisiones de gases de efecto invernadero a nivel mundial en 2020. Todo el mundo debe tomar medidas en lo que respecta al clima, pero las personas y los países que crean más problemas 
+                            tienen una mayor responsabilidad para actuar primero.
+                        </p>
+                    </div>
+                </div>
+                <button type="button" id="boton-prueba" onclick="muestraprueba()" class="boton-prueba">Realizar Prueba</button>
+                <div class="contenedor-prueba" id="pruebaform">
+                    <form id="pruebahistoria">
+                        <header>
+                            <h2>Cuestionario De Geografía</h2>
+                        </header>
+                        <section id="preguntas">
+                            <article class="pregunta">
+                                <p>¿Qué actividad humana es señalada como el principal motor del cambio climático en el texto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p1" value="a"> a) Deforestación</li>
+                                    <li><input type="radio" name="p1" value="b"> b) Uso de pesticidas</li>
+                                    <li><input type="radio" name="p1" value="c"> c) Quema de combustibles fósiles</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Cuáles son los dos principales gases de efecto invernadero mencionados en el texto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p2" value="a"> a) Monóxido de carbono y vapor de agua</li>
+                                    <li><input type="radio" name="p2" value="b"> b) Dióxido de carbono y metano</li>
+                                    <li><input type="radio" name="p2" value="c"> c) Ozono y óxidos de nitrógeno</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Cómo se describe el impacto de las emisiones de gases de efecto invernadero en el clima?</p>
+                                <ul>
+                                    <li><input type="radio" name="p3" value="a"> a) Enfriando la atmósfera</li>
+                                    <li><input type="radio" name="p3" value="b"> b) Neutralizando las temperaturas</li>
+                                    <li><input type="radio" name="p3" value="c"> c) Atrapando el calor del sol</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Cuáles son los sectores mencionados como principales emisores de gases de efecto invernadero en el texto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p4" value="a"> a) Agricultura y tecnología</li>
+                                    <li><input type="radio" name="p4" value="b"> b) Energía e industria</li>
+                                    <li><input type="radio" name="p4" value="c"> c) Salud y transporte</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Cuál es la conclusión sobre las acciones necesarias para abordar el cambio climático según el texto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p5" value="a"> a) Solo los países desarrollados deben actuar</li>
+                                    <li><input type="radio" name="p5" value="b"> b) Todos los países deben tomar medidas</li>
+                                    <li><input type="radio" name="p5" value="c"> c) Solo los países en desarrollo son responsables</li>
+                                </ul>
+                            </article>
+                        </section>
+                        <div class="contenedor-califica">
+                            <P>Calificación: <span id="nota"></span></P>
+                            <button  id="volverintentar" onclick="location.reload()">Volver a intentar</button>
+                    
+                        </div>
+                        <button type="submit" id="boton-enviar" class="boton-prueba" onclick="validarRespuestas()">Enviar respuestas</button>
+                    </form>
+                </div>   
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/footer.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/botonprueba.js"></script>
+    <script src="js/validacionpruebageografia.js"></script>
+</body>
+</html>

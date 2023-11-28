@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Learning</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/images/Iconopestana.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="iniciocurso">
+            <div class="contenedor-curso">
+                <div class="contenidoinicio">
+                    <div class="card-del-curso" style="background-image: url(assets/images/paginaarte.jpg);">
+                        <div class="nombrescursos">
+                            <h1>Arte</h1>
+                        </div>
+                    </div>
+                    <div class="contenedor-video">
+                        <iframe src="https://www.youtube.com/embed/RVoGJWXOmso"></iframe>
+                    </div>
+                </div>
+                <div class="contenedor-info">
+                    <div class="infodelcurso">
+                        <h1>Arte Urbano</h1>
+                        <p>
+                            Denominamos arte urbano o arte callejero, cuya traducción es literal del inglés street art,  a todo el arte realizado en las calles o con referencia a este estilo. 
+                            El arte urbano además de englobar el graffitti, también acapara otras formas de expresión artística callejera. Desde los años 90 street art es un termino que hemos
+                            comenzado a conocer y utilizar, también llamado Post-Graffiti, termino utilizados para englobar el trabajo de artístico en las calles de un grupo de artistas que utilizan 
+                            diferentes tipos de técnicas (murales, graffitis, plantillas, pegatinas, etc).Es una tipología de arte que surge siempre en barrios periféricos y en muchos casos 
+                            tiene un alto contenido político, de hecho sus inicios posiblemente sea en el  París en la segunda mitad de los años 60. En España el arte urbano, a imitación de 
+                            otros países europeos, nació primero en las zonas periféricas de las grandes ciudades y en las localidades de sus áreas metropolitanas para luego extenderse por el 
+                            resto del país. Actualmente son focos importantes de esta disciplina Madrid y varios municipios de sus zona Sur, así como Barcelona, Pontevedra, Zaragoza y Cuenca. Ademas
+                            los artistas siempre se valen de su ingenio para escoger espacios y juegan con el concepto de los público y efímero. Es un arte que ofrecen de forma gratuita al 
+                            público mayoritario, el arte urbano ha comenzado a ser muy valorado aproximadamente desde los últimos diez años y no sorprende ver a estos artistas hacer 
+                            exposiciones en los grandes museos de cualquier ciudad, así como acaparar portadas de diarios y noticias con sus nuevas intervenciones artísticas, 
+                            como es el caso del artista “desconocido” Bansky. De este último, dueños de las propiedades intervenidas han llegado a subastar sus obras por precios 
+                            nada desdeñables. Por lo que  podemos decir el dilema entre Arte y vandalismo poco a poco se va desdibujando.
+                            
+                        </p>
+                    </div>
+                </div>
+                <button type="button" id="boton-prueba" onclick="muestraprueba()" class="boton-prueba">Realizar Prueba</button>
+                <div class="contenedor-prueba" id="pruebaform">
+                    <form id="pruebahistoria">
+                        <header>
+                            <h2>Cuestionario De Geografía</h2>
+                        </header>
+                        <section id="preguntas">
+                            <article class="pregunta">
+                                <p>¿Cómo se denomina el arte realizado en las calles o con referencia a este estilo?</p>
+                                <ul>
+                                    <li><input type="radio" name="p1" value="a"> a) Grafiti</li>
+                                    <li><input type="radio" name="p1" value="b"> b) Street art</li>
+                                    <li><input type="radio" name="p1" value="c"> c) Arte callejero</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Qué otra forma de expresión artística callejera engloba además del grafiti el arte urbano?</p>
+                                <ul>
+                                    <li><input type="radio" name="p2" value="a"> a) Esculturas</li>
+                                    <li><input type="radio" name="p2" value="b"> b) Fotografía</li>
+                                    <li><input type="radio" name="p2" value="c"> c) Plantillas, pegatinas, etc.</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Cómo se conoce también al street art según el texto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p3" value="a"> a) Arte Moderno</li>
+                                    <li><input type="radio" name="p3" value="b"> b) Post-Graffiti</li>
+                                    <li><input type="radio" name="p3" value="c"> c) Arte Contemporáneo</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Dónde se originaron posiblemente los inicios del arte urbano en la década de los 60?</p>
+                                <ul>
+                                    <li><input type="radio" name="p4" value="a"> a) Nueva York</li>
+                                    <li><input type="radio" name="p4" value="b"> b) Berlín</li>
+                                    <li><input type="radio" name="p4" value="c"> c) París</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿En qué áreas suelen surgir el arte urbano y cuál es una característica común de este tipo de arte según el texto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p5" value="a"> a) Áreas rurales y contenido religioso</li>
+                                    <li><input type="radio" name="p5" value="b"> b) Barrios periféricos y contenido político</li>
+                                    <li><input type="radio" name="p5" value="c"> c) Centros urbanos y contenido comercial</li>
+                                </ul>
+                            </article>
+                        </section>
+                        <div class="contenedor-califica">
+                            <P>Calificación: <span id="nota"></span></P>
+                            <button  id="volverintentar" onclick="location.reload()">Volver a intentar</button>
+                    
+                        </div>
+                        <button type="submit" id="boton-enviar" class="boton-prueba" onclick="validarRespuestas()">Enviar respuestas</button>
+                    </form>
+                </div>   
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/footer.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/botonprueba.js"></script>
+    <script src="js/validacionpruebaarte.js"></script>
+</body>
+</html>

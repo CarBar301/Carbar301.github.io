@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Learning</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/images/Iconopestana.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="iniciocurso">
+            <div class="contenedor-curso">
+                <div class="contenidoinicio">
+                    <div class="card-del-curso" style="background-image: url(assets/images/matepagina.jpg);">
+                        <div class="nombrescursos">
+                            <h1>Matemáticas</h1>
+                        </div>
+                    </div>
+                    <div class="contenedor-video">
+                        <iframe src="https://www.youtube.com/embed/2UbdPiqAiHY"></iframe>
+                    </div>
+                </div>
+                <div class="contenedor-info">
+                    <div class="infodelcurso">
+                        <h1>Teorema De Pitágoras</h1>
+                        <p>
+                            El teorema de Pitágoras es un principio fundamental en la geometría euclidiana, y establece una relación matemática 
+                            entre los lados de un triángulo rectángulo. Un triángulo rectángulo es un triángulo que tiene un ángulo recto, es decir, 
+                            un ángulo de 90 grados.En un triángulo rectángulo, el cuadrado de la longitud de la hipotenusa (el lado opuesto al ángulo recto) 
+                            es igual a la suma de los cuadrados de las longitudes de los otros dos lados, llamados catetos.
+                        </p>
+                        <img id="teoremaimg" src="assets/images/Teorema pita.jpg" alt="">
+                        <h2>Razones Trigonométricas </h2>
+                        <p>
+                            Son funciones matemáticas que relacionan los ángulos de un triángulo con las longitudes de sus lados. Estas razones son fundamentales 
+                            en trigonometría y se utilizan ampliamente en matemáticas, física, ingeniería y otras disciplinas. Las razones trigonométricas básicas 
+                            están definidas en relación con un triángulo rectángulo.
+                        </p>
+                        <p>Seno:El seno de un ángulo en un triángulo rectángulo se define como la razón entre el cateto opuesto y la hipotenusa.</p>
+                        <p>Cos:El coseno de un ángulo en un triángulo rectángulo se define como la razón entre el cateto adyacente y la hipotenusa.</p>
+                        <p>Tangente:La tangente de un ángulo en un triángulo rectángulo se define como la razón entre el cateto opuesto y el cateto adyacente.</p>
+                        <img src="assets/images/las-razones-trigonometricas.jpg" alt="">
+
+
+                    </div>
+                </div>
+                <button type="button" id="boton-prueba" onclick="muestraprueba()" class="boton-prueba">Realizar Prueba</button>
+                <div class="contenedor-prueba" id="pruebaform">
+                    <form id="pruebahistoria">
+                        <header>
+                            <h2>Cuestionario De Historia</h2>
+                        </header>
+                        <section id="preguntas">
+                            <article class="pregunta">
+                                <p>En un triángulo rectángulo, si el cateto adyacente mide 12 y la hipotenusa mide 15,¿cuál es la longitud del cateto opuesto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p1" value="a"> a) 3</li>
+                                    <li><input type="radio" name="p1" value="b"> b) 9</li>
+                                    <li><input type="radio" name="p1" value="c"> c) 5</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>En un triángulo rectángulo, si seno()=3/5,¿cuál es el valor de Cos()?</p>
+                                <ul>
+                                    <li><input type="radio" name="p2" value="a"> a) 4/5</li>
+                                    <li><input type="radio" name="p2" value="b"> b) 1/5</li>
+                                    <li><input type="radio" name="p2" value="c"> c) 2/3</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>En un triángulo rectángulo, si tan()=7/24,¿cuál es el valor de seno()?</p>
+                                <ul>
+                                    <li><input type="radio" name="p3" value="a"> a) 7/25</li>
+                                    <li><input type="radio" name="p3" value="b"> b) 24/25</li>
+                                    <li><input type="radio" name="p3" value="c"> c) 7/24</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>Si en un triángulo rectángulo el cateto opuesto mide 9 y el cateto adyacente mide 12,¿cuál es el valor de tan()? </p>
+                                <ul>
+                                    <li><input type="radio" name="p4" value="a"> a) 3/4</li>
+                                    <li><input type="radio" name="p4" value="b"> b) 4/3</li>
+                                    <li><input type="radio" name="p4" value="c"> c) 9/12</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>Si en un triángulo rectángulo cos()=4/5,¿cuál es el valor de seno()?</p>
+                                <ul>
+                                    <li><input type="radio" name="p5" value="a"> a) 1/5</li>
+                                    <li><input type="radio" name="p5" value="b"> b) 3/5</li>
+                                    <li><input type="radio" name="p5" value="c"> c) 4/5</li>
+                                </ul>
+                            </article>
+                        </section>
+                        <div class="contenedor-califica">
+                            <P>Calificación: <span id="nota"></span></P>
+                            <button  id="volverintentar" onclick="location.reload()">Volver a intentar</button>
+                    
+                        </div>
+                        <button type="submit" id="boton-enviar" class="boton-prueba" onclick="validarRespuestas()">Enviar respuestas</button>
+                    </form>
+                </div>   
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/footer.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/botonprueba.js"></script>
+    <script src="js/validaciondepruebademate.js"></script>
+</body>
+</html>

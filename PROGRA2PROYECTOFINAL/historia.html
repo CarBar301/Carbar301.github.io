@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Learning</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/images/Iconopestana.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="iniciocurso">
+            <div class="contenedor-curso">
+                <div class="contenidoinicio">
+                    <div class="card-del-curso" style="background-image: url(assets/images/historiapagina.jpg);">
+                        <div class="nombrescursos">
+                            <h1>Historia</h1>
+                        </div>
+                    </div>
+                    <div class="contenedor-video">
+                        <iframe src="https://www.youtube.com/embed/36qFLWPiXpc?start=0"></iframe>
+                    </div>
+                </div>
+                <div class="contenedor-info">
+                    <div class="infodelcurso">
+                        <h1> Egipto</h1>
+                        <p>
+                            Los primeros pobladores de Egipto alcanzaron las riberas del río Nilo, por entonces un conglomerado de marismas foco de paludismo, 
+                            escapando de la desertización del Sahara. Las comunidades originales hicieron habitable el país y se estructuraron en regiones llamadas nomos. 
+                            Pasado el tiempo y tras épocas de acuerdos y disputas los nomos se agruparon en dos proto-naciones, el Alto Egipto y el Bajo Egipto, para quedar 
+                            finalmente unificados por Menes hacia el año 3100 a. C., considerado por los antiguos egipcios el primer faraón.Para los antiguos egipcios, el primer faraón fue Narmer, 
+                            denominado Menes por Manetón, quien gobernó hacia el año 3150 a. C. El último faraón fue Cleopatra VII, de ascendencia helénica, que reinó del año 51 al 30 a. C. 
+                            Sin embargo, el título de «faraón», con su término egipcio solo debería utilizarse en puridad, cuando Egipto llegó a serlo de verdad, extendiendo su poder más allá de su 
+                            territorio original, que se produjo solamente a partir del Imperio Nuevo, más específicamente, a mediados de la Dinastía XVIII, posterior al reinado de Hatshepsut.
+                            Los faraones fueron considerados seres casi divinos durante las primeras dinastías y eran identificados con el dios Horus. A partir de la dinastía V también eran «hijos del dios Ra». 
+                            Normalmente no fueron deificados en vida. Era tras su muerte cuando el faraón se fusionaba con la deidad Osiris y adquiría la inmortalidad y una categoría divina, 
+                            siendo entonces venerados como un dios más en los templos.En el denominado Imperio Antiguo, durante la tercera dinastía, con Dyeser (Zoser), encontramos un dominio del arte y la arquitectura monumental en piedra. 
+                            De esta época se datan las tres colosales pirámides de Seneferu, la Gran Pirámide de Guiza atribuida a Keops (Jufu) por Heródoto, con la inestimable ayuda de su hija,
+                            así como la de Kefrén (Jafra) y Micerino (Menkaura) en la cuarta dinastía. La capital se establece en Menfis y el periodo de mayor esplendor económico se desarrolló a partir del 2400 a. C. con la quinta dinastía. 
+                            El comercio es fundamental: el trigo se cambia por madera de ébano, oro y especias. La artesanía gozó de un gran auge. 
+                        </p>
+                    </div>
+                </div>
+                <button type="button" id="boton-prueba" onclick="muestraprueba()" class="boton-prueba">Realizar Prueba</button>
+                <div class="contenedor-prueba" id="pruebaform">
+                    <form id="pruebahistoria">
+                        <header>
+                            <h2>Cuestionario De Historia</h2>
+                        </header>
+                        <section id="preguntas">
+                            <article class="pregunta">
+                                <p>¿Por qué los primeros pobladores de Egipto se establecieron a lo largo del río Nilo?</p>
+                                <ul>
+                                    <li><input type="radio" name="p1" value="a"> a) Por la desertización del Sahara</li>
+                                    <li><input type="radio" name="p1" value="b"> b) Por la abundancia de recursos minerales</li>
+                                    <li><input type="radio" name="p1" value="c"> c) Por la proximidad al Mar Mediterráneo</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Cómo se estructuraron inicialmente las comunidades en Egipto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p2" value="a"> a) En ciudades fortificadas</li>
+                                    <li><input type="radio" name="p2" value="b"> b) En regiones llamadas nomos</li>
+                                    <li><input type="radio" name="p2" value="c"> c) En tribus nómadas</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Cuándo y cómo se unificaron el Alto Egipto y el Bajo Egipto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p3" value="a"> a) Alrededor del año 2500 a. C. mediante guerra</li>
+                                    <li><input type="radio" name="p3" value="b"> b) Alrededor del año 3100 a. C. bajo el gobierno de Menes</li>
+                                    <li><input type="radio" name="p3" value="c"> c) Nunca se unificaron</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿Cuál fue el papel de los faraones en la sociedad egipcia antigua y cuándo adquirían estatus divino?</p>
+                                <ul>
+                                    <li><input type="radio" name="p4" value="a"> a) Eran simples gobernantes y nunca adquirían estatus divino</li>
+                                    <li><input type="radio" name="p4" value="b"> b) Eran considerados divinos desde su nacimiento</li>
+                                    <li><input type="radio" name="p4" value="c"> c) Eran considerados divinos después de la muerte, al fusionarse con Osiris</li>
+                                </ul>
+                            </article>
+                            <article class="pregunta">
+                                <p>¿En qué período y bajo qué faraón se destacó el dominio del arte y la arquitectura monumental en piedra en Egipto?</p>
+                                <ul>
+                                    <li><input type="radio" name="p5" value="a"> a) Durante el Imperio Medio con Amenemhat I</li>
+                                    <li><input type="radio" name="p5" value="b"> b) Durante el Imperio Antiguo, específicamente con Dyeser (Zoser)</li>
+                                    <li><input type="radio" name="p5" value="c"> c) Durante el Imperio Nuevo con Ramsés II</li>
+                                </ul>
+                            </article>
+                        </section>
+                        <div class="contenedor-califica">
+                            <P>Calificación: <span id="nota"></span></P>
+                            <button  id="volverintentar" onclick="location.reload()">Volver a intentar</button>
+                    
+                        </div>
+                        <button type="submit" id="boton-enviar" class="boton-prueba" onclick="validarRespuestas()">Enviar respuestas</button>
+                    </form>
+                </div>   
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/footer.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/botonprueba.js"></script>
+    <script src="js/validaciondepruebas.js"></script>
+</body>
+</html>
